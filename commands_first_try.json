@@ -1,2 +1,0 @@
-SetUart, input, u8;
-SetI2c, input, u8;
