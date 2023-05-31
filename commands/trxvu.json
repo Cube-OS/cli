@@ -1,0 +1,36 @@
+# struct GetCommsTelemetry {}
+
+# struct GetTelem {
+	telemtyp: TelemType,
+}
+
+# struct ConfigAx25 {
+	to: AX25Callsign,
+	from: AX25Callsign,
+}
+
+# struct TxSetRate {
+	data_rate: TXRate,
+}
+
+# struct TxSetIdle {
+	idle: IdleState,
+}
+
+# struct SendOverride {
+	to: AX25Callsign,
+	from: AX25Callsign,
+	buffer: Vec<u8>,
+}
+
+# struct Reset {}
+
+# struct ClearBeacon {}
+
+# struct WatchdogKick {}
+
+enum TelemType { Down, DownFailed, Up, UpFailed, }
+struct AX25Callsign { ascii : String, ssid : u8, }
+enum TXRate { TXRate1200, TXRate2400, TXRate4800, TXRate9600, }
+enum IdleState { IdleOff, IdleOn, }
+
