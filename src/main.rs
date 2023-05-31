@@ -1,7 +1,7 @@
 pub mod trxvu;
 pub mod example;
 
-use cmd_import::*;
+use cli_macro::*;
 use dialoguer::*;
 use serde::{Serialize,Deserialize};
 use strum::IntoEnumIterator;

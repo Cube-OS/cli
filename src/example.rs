@@ -1,3 +1,3 @@
 use super::*;
 
-cmd_import!("./commands/example.json");
+cli_macro!("./commands/example.json");

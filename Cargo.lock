@@ -56,7 +56,7 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 name = "cli"
 version = "0.1.0"
 dependencies = [
- "cmd-import",
+ "cli-macro",
  "dialoguer",
  "serde",
  "serde_json",
@@ -65,8 +65,9 @@ dependencies = [
 ]
 
 [[package]]
-name = "cmd-import"
+name = "cli-macro"
 version = "0.1.0"
+source = "git+ssh://git@github.com/Cube-OS/cli-macro#f3bad444baf3bb792a3159d9ea6fa2ca9dc95c8c"
 dependencies = [
  "cargo_metadata",
  "proc-macro2",
