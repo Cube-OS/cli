@@ -67,7 +67,7 @@ dependencies = [
 [[package]]
 name = "cli-macro"
 version = "0.1.0"
-source = "git+ssh://git@github.com/Cube-OS/cli-macro#f3bad444baf3bb792a3159d9ea6fa2ca9dc95c8c"
+source = "git+ssh://git@github.com/Cube-OS/cli-macro#b137b662ef23ef91485a72e30687eb3e80872b2e"
 dependencies = [
  "cargo_metadata",
  "proc-macro2",
@@ -241,9 +241,9 @@ checksum = "436b050e76ed2903236f032a59761c1eb99e1b0aead2c257922771dab1fc8c78"
 
 [[package]]
 name = "rustix"
-version = "0.37.19"
+version = "0.37.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "acf8729d8542766f1b2cf77eb034d52f40d375bb8b615d0b147089946e16613d"
+checksum = "d4eb579851244c2c03e7c24f501c3432bed80b8f720af1d6e5b0e0f01555a035"
 dependencies = [
  "bitflags",
  "errno",
